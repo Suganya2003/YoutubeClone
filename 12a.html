@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title> flex 12a.ex</title>
+    </head>
+    <style>
+        .whole-flex{
+            display:flex;
+            flex-direction: row;
+           
+            justify-content: start;
+           
+        }
+        .whole-fle{
+            display:flex;
+            flex-direction: row;
+            
+            justify-content: space-between;
+            
+        }
+        .whole-fle1{
+            display:flex;
+            flex-direction: row;
+            height:70px;
+            justify-content: space-between;
+            align-items: center;
+            border-color: gray;
+            border-width: 1px;
+            border-style: solid;
+            margin:0;
+        }
+        .left-section{
+
+        background-color: lightblue;
+        width:200px;
+        }
+        .right-section{
+     background-color: bisque;
+     width:75px;
+
+        }
+
+        .left-section1{
+
+            background-color: lightblue;
+            width:50px;
+            }
+            .right-section1{
+         background-color: bisque;
+         width:75px;
+
+    
+            }
+            .mid1{
+
+                background-color: lightgreen;
+                flex:1;
+            }
+            .left-section2{
+
+                background-color: lightblue;
+                
+            
+                
+                }
+                .m1{
+                    background-color: lightblue;
+                   
+                }
+                .m2{
+                    background-color: lightblue;
+                   
+                }
+                .rig{
+                    background-color: lightblue;
+                   
+                }
+    </style>
+    <body>
+        <div class="whole-flex">
+            <div class="left-section">
+200px
+            </div>
+            <div class="right-section">
+75px
+            </div>
+        </div>
+
+
+        <div class="whole-flex">
+            <div class="left-section1">
+item1
+            </div>
+            <div class="mid1">
+              item2
+                            </div>
+            <div class="right-section1">
+item3
+            </div>
+        </div>
+
+
+
+        <div class="whole-fle">
+            <div class="left-section2">
+item1
+            </div>
+            <div class="m1">
+              item2
+                            </div>
+            <div class="m2">
+item3
+            </div>
+            <div class="rig">
+                item4
+                            </div>
+        </div>
+
+        <div class="whole-fle1">
+            <div class="left-section2">
+item1
+            </div>
+       
+            <div class="rig">
+                item4
+                            </div>
+        </div>
+
+    </body>
+</html>
